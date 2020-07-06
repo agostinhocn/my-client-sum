@@ -38,7 +38,7 @@ jobs: # a collection of steps
       # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
           path: target/surefire-reports
 
-      # Go
+      # Go Go
       - store_artifacts: # store the uberjar as an artifact
       # Upload test summary for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
           path: target/my-client-sum-2.0-SNAPSHOT.jar
