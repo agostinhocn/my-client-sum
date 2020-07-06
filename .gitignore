@@ -1,3 +1,5 @@
 /target
-./idea
 release.properties
+# file: ~/.gitignore_global
+.DS_Store
+.idea
