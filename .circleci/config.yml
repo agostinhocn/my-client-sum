@@ -41,5 +41,5 @@ jobs: # a collection of steps
       # Go
       - store_artifacts: # store the uberjar as an artifact
       # Upload test summary for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
-          path: target/my-client-sum-1.0-SNAPSHOT.jar
+          path: target/my-client-sum-2.0-SNAPSHOT.jar
       # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples 
