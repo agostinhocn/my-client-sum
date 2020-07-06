@@ -5,7 +5,7 @@
 
   <groupId>my-client-sum</groupId>
   <artifactId>my-client-sum</artifactId>
-  <version>200.0.1</version>
+  <version>200.0.2-SNAPSHOT</version>
 
   <name>my-client-sum</name>
   <!-- FIXME change it to the project's website -->
@@ -29,7 +29,7 @@
     <connection>scm:git:https://github.com/agostinhocn/my-client-sum.git</connection>
     <url>http://github.com/agostinhocn/my-client-sum</url>
     <developerConnection>scm:git:https://github.com/agostinhocn/my-client-sum.git</developerConnection>
-    <tag>200.0.1</tag>
+    <tag>200.0.0-SNAPSHOT</tag>
   </scm>
 
   <dependencies>
