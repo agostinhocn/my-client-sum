@@ -33,9 +33,10 @@ jobs: # a collection of steps
           key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
 
       - run: mvn package # run the actual tests
-      - run: git push --set-upstream origin ${CIRCLE_BRANCH}
-      - run: git config --global user.email "agostinho@gmail.com"
-      - run: git config --global user.name "CircleCI"
+      - run: mvn -B release:prepare release:perform
+#      - run: git push --set-upstream origin ${CIRCLE_BRANCH}
+#      - run: git config --global user.email "agostinho@gmail.com"
+#      - run: git config --global user.name "CircleCI"
 
 
 
