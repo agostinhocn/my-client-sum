@@ -5,7 +5,7 @@
 
   <groupId>my-client-sum</groupId>
   <artifactId>my-client-sum</artifactId>
-  <version>200.0.19-SNAPSHOT</version>
+  <version>200.0.21-SNAPSHOT</version>
 
   <name>my-client-sum</name>
   <!-- FIXME change it to the project's website -->
