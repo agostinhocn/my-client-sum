@@ -5,7 +5,7 @@
 
   <groupId>my-client-sum</groupId>
   <artifactId>my-client-sum</artifactId>
-  <version>200.0.8-SNAPSHOT</version>
+  <version>200.0.32-SNAPSHOT</version>
 
   <name>my-client-sum</name>
   <!-- FIXME change it to the project's website -->
@@ -45,15 +45,15 @@
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
 
-        <!--<plugin>-->
-          <!--<artifactId>maven-release-plugin</artifactId>-->
-          <!--<version>2.5.3</version>-->
-          <!--<configuration>-->
-            <!--<autoVersionSubmodules>true</autoVersionSubmodules>-->
-            <!--<tagNameFormat>@{project.version}</tagNameFormat>-->
-            <!--<releaseProfiles>release</releaseProfiles>-->
-          <!--</configuration>-->
-        <!--</plugin>-->
+        <plugin>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5.3</version>
+          <configuration>
+            <autoVersionSubmodules>true</autoVersionSubmodules>
+            <tagNameFormat>@{project.version}</tagNameFormat>
+            <releaseProfiles>release</releaseProfiles>
+          </configuration>
+        </plugin>
 
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
