@@ -25,6 +25,12 @@
     </repository>
   </distributionManagement>
 
+  <scm>
+    <connection>scm:git:https://github.com/agostinhocn/my-client-sum.git</connection>
+    <url>http://github.com/agostinhocn/my-client-sum</url>
+    <developerConnection>scm:git:https://github.com/agostinhocn/my-client-sum.git</developerConnection>
+  </scm>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
