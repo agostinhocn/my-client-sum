@@ -32,6 +32,7 @@ jobs: # a collection of steps
             - ~/.m2
           key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
 
+      - run: mvn -B release:clean release:prepare release:perform
       #- run: mvn package # run the actual tests
       #- run: echo ${CIRCLE_BRANCH}
       #- run: echo ${CIRCLE_BUILD_NUM}
@@ -39,7 +40,6 @@ jobs: # a collection of steps
 #      - run: git push --set-upstream origin ${CIRCLE_BRANCH}
 #       - run: git config --global user.email "agostinho@gmail.com"
 #       - run: git config --global user.name "CircleCI"
-     - run: mvn -B release:clean release:prepare release:perform
 
 
 
